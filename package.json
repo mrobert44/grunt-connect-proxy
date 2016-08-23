@@ -1,23 +1,23 @@
 {
-  "name": "grunt-connect-proxy",
+  "name": "grunt-connect-proxy-updated-updated",
   "description": "Provides a http proxy as middleware for grunt connect.",
   "version": "0.2.0",
-  "homepage": "https://github.com/drewzboto/grunt-connect-proxy",
+  "homepage": "https://github.com/mrobert44/grunt-connect-proxy-updated-updated",
   "author": {
-    "name": "Drewz",
-    "email": "drewz@2mod5.com"
+    "name": "mrobert44",
+    "email": "mathieu.robert.sopra@gmail.com"
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/drewzboto/grunt-connect-proxy.git"
+    "url": "git://github.com/mrobert/grunt-connect-proxy-updated.git"
   },
   "bugs": {
-    "url": "https://github.com/drewzboto/grunt-connect-proxy/issues"
+    "url": "https://github.com/mrobert44/grunt-connect-proxy-updated/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/drewzboto/grunt-connect-proxy/blob/master/LICENSE-MIT"
+      "url": "https://github.com/mrobert44/grunt-connect-proxy-updated/blob/master/LICENSE-MIT"
     }
   ],
   "main": "Gruntfile.js",
