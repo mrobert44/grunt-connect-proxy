@@ -1,4 +1,4 @@
-# grunt-connect-proxy
+# grunt-connect-proxy-updated
 
 > Provides a http proxy as middleware for the grunt-contrib-connect plugin.
 
@@ -8,13 +8,13 @@ This plugin requires Grunt `>=0.4.1`
 If you haven't used [Grunt](http://gruntjs.com/) before, be sure to check out the [Getting Started](http://gruntjs.com/getting-started) guide, as it explains how to create a [Gruntfile](http://gruntjs.com/sample-gruntfile) as well as install and use Grunt plugins. Once you're familiar with that process, you may install this plugin with this command:
 
 ```shell
-npm install grunt-connect-proxy --save-dev
+npm install grunt-connect-proxy-updated --save-dev
 ```
 
 One the plugin has been installed, it may be enabled inside your Gruntfile with this line of JavaScript:
 
 ```js
-grunt.loadNpmTasks('grunt-connect-proxy');
+grunt.loadNpmTasks('grunt-connect-proxy-updated');
 ```
 
 ## Adapting the  "connect" task
@@ -64,7 +64,7 @@ Add the middleware call from the connect option middleware hook
                         }
 
                         // Setup the proxy
-                        var middlewares = [require('grunt-connect-proxy/lib/utils').proxyRequest];
+                        var middlewares = [require('grunt-connect-proxy-updated/lib/utils').proxyRequest];
 
                         // Serve static files.
                         options.base.forEach(function(base) {
@@ -96,7 +96,7 @@ It is possible to add the proxy middleware without Livereload as follows:
           logger: 'dev',
           hostname: 'localhost',
           middleware: function (connect, options, defaultMiddleware) {
-             var proxy = require('grunt-connect-proxy/lib/utils').proxyRequest;
+             var proxy = require('grunt-connect-proxy-updated/lib/utils').proxyRequest;
              return [
                 // Include the proxy first
                 proxy

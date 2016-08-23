@@ -1,6 +1,6 @@
 /*
  * grunt-connect-proxy-updated
- * https://github.com/mrobert44/grunt-connect-proxy-updated-updated
+ * https://github.com/mrobert44/grunt-connect-proxy-updated
  *
  * Copyright (c) 2013 Drewz
  * Licensed under the MIT license.
