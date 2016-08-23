@@ -1,7 +1,7 @@
 {
   "name": "grunt-connect-proxy-updated",
   "description": "Provides a http proxy as middleware for grunt connect.",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "homepage": "https://github.com/mrobert44/grunt-connect-proxy-updated",
   "author": {
     "name": "mrobert44",
